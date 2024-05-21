@@ -1,5 +1,6 @@
 ### Reporte del Código: LCR_RPW_Encapsulated.R
 ![Rplot07](https://github.com/jchicatti/optimization/assets/56322123/db01faa2-2a4c-4653-8059-d287610340b6)
+> Figura 1. Grafo de árbol de las tareas del archivo instance_n=100_1.alb
 
 **Objetivo y Contexto del Código**
 
@@ -38,3 +39,13 @@ Esta estructura facilita la implementación de los algoritmos LCR y RPW, permiti
 - La recursividad fue empleada para el cálculo de pesos en RPW para simplificar el manejo de dependencias múltiples y profundas entre tareas.
 
 Este script provee una herramienta robusta para la planificación y optimización de tareas en ambientes productivos, combinando técnicas de programación avanzada con métodos operativos probados para mejorar significativamente la eficiencia operativa.
+**Inputs en R**
+El usuario solamente debe de ingresar el nombre del archivo .ALB o cualquier otro archivo de texto y/o la ruta de dicho archivo de ser necesario.
+**Outputs en R**
+Las celdas quedan definidas en R y se almacenan en dos listas para LCR y RPW respectivamente. Cada una de estas listas, es a su vez una lista que almacena: las tareas que van en ella y el tiempo restante que le queda a la celda dadas las operaciones dentro de ella.
+También se imprimen los valores de los pesos asignados según RPW.
+
+![image](https://github.com/jchicatti/optimization/assets/56322123/94c7d034-2bc4-49aa-9a7d-585e256cb5d3)
+> Figura 2. Las primeras celdas asignadas segun LCR para el ejemplo  instance_n=100_1.alb
+![image](https://github.com/jchicatti/optimization/assets/56322123/753445b9-83cf-4f6c-a0e2-ad79c198055d)
+> Figura 3. Las primeras celdas asignadas segun RPW para el ejemplo  instance_n=100_1.alb
