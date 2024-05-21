@@ -45,8 +45,8 @@ El usuario solamente debe de ingresar el nombre del archivo .ALB o cualquier otr
 Las celdas quedan definidas en R y se almacenan en dos listas para LCR y RPW respectivamente. Cada una de estas listas, es a su vez una lista que almacena: las tareas que van en ella y el tiempo restante que le queda a la celda dadas las operaciones dentro de ella.
 También se imprimen los valores de los pesos asignados según RPW.
 
-![image](https://github.com/jchicatti/optimization/assets/56322123/94c7d034-2bc4-49aa-9a7d-585e256cb5d3)
+![image](https://github.com/jchicatti/optimization/assets/56322123/94c7d034-2bc4-49aa-9a7d-585e256cb5d3)\
 `Figura 2. Las primeras celdas asignadas segun LCR para el ejemplo  instance_n=100_1.alb`
 
-![image](https://github.com/jchicatti/optimization/assets/56322123/753445b9-83cf-4f6c-a0e2-ad79c198055d)
+![image](https://github.com/jchicatti/optimization/assets/56322123/753445b9-83cf-4f6c-a0e2-ad79c198055d)\
 `Figura 3. Las primeras celdas asignadas segun RPW para el ejemplo  instance_n=100_1.alb`
