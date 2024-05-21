@@ -1,4 +1,5 @@
 ### Reporte del Código: LCR_RPW_Encapsulated.R
+![Rplot07](https://github.com/jchicatti/optimization/assets/56322123/db01faa2-2a4c-4653-8059-d287610340b6)
 
 **Objetivo y Contexto del Código**
 
