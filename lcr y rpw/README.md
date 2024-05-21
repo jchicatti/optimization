@@ -39,9 +39,13 @@ Esta estructura facilita la implementación de los algoritmos LCR y RPW, permiti
 - La recursividad fue empleada para el cálculo de pesos en RPW para simplificar el manejo de dependencias múltiples y profundas entre tareas.
 
 Este script provee una herramienta robusta para la planificación y optimización de tareas en ambientes productivos, combinando técnicas de programación avanzada con métodos operativos probados para mejorar significativamente la eficiencia operativa.
+
 **Inputs en R**
+
 El usuario solamente debe de ingresar el nombre del archivo .ALB o cualquier otro archivo de texto y/o la ruta de dicho archivo de ser necesario.
+
 **Outputs en R**
+
 Las celdas quedan definidas en R y se almacenan en dos listas para LCR y RPW respectivamente. Cada una de estas listas, es a su vez una lista que almacena: las tareas que van en ella y el tiempo restante que le queda a la celda dadas las operaciones dentro de ella.
 También se imprimen los valores de los pesos asignados según RPW.
 
